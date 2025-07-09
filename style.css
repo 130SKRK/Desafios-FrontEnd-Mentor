@@ -15,7 +15,7 @@ h3{
     font-size: 0.9rem;
 }
 body{
-    background-image: url(../img/image-omelette.jpeg);
+    background-image: url(image-omelette.jpeg);
     background-size: cover;
     background-position: center center;
 }
