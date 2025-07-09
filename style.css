@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.1rem;
+}
+h3{
+    font-size: 0.9rem;
+}
+body{
+    background-image: url(../img/image-omelette.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+#corpoDaReceita{
+    width: 40rem;
+    display: block;
+    background-color: rgb(189, 117, 23);
+    justify-content: center;
+    padding: 1.5rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+.imgReceita{
+    width: 100%;
+    border-radius: 1rem;
+}
+#receitaTitulo{
+    margin-bottom: 1rem;
+}
+#receita{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#preparoTitulo{
+    margin-bottom: 1rem;
+    margin-left: -1rem;
+}
+#preparo{
+    padding-bottom: 1rem;
+    margin: 2rem;
+}
+#ingredientesTitulo{
+    margin-bottom: 1rem;
+    margin-left: -1rem;
+}
+#ingredientes{
+    padding-bottom: 1rem;
+    margin: 1rem;
+}
+#instrucoesTitulo{
+    margin-bottom: 1rem;
+}
+.lista{
+    counter-reset: contador;
+}
+.item::before{
+    content: counter(contador) ". ";
+    counter-increment: contador;
+}
+.item{
+    margin-bottom: 0.5rem;
+}
+#instrucoes{
+    margin-bottom: 2rem;
+}
+#nutricaoTitulo{
+    margin-bottom: 1rem;
+}
+table{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+table td{
+    border-bottom: 0.1rem solid rgb(255, 255, 255);
+    padding: 1rem;
+}
+#footer{
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+div p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+div p a:hover{
+    color: rgb(0, 0, 0);
+}
